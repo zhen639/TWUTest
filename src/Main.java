@@ -7,6 +7,6 @@ public class Main {
         TestHorizontalLine testHL = new TestHorizontalLine();
         testHL.run();
 
-        
+
     }
 }
