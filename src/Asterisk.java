@@ -4,8 +4,8 @@
 public class Asterisk {
     private int num;
 
-    public void print(){
-        System.out.print("*");
+    public void draw(){
+        System.out.println("*");
     }
 
 //    public void seeOuter(){

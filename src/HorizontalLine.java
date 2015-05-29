@@ -8,9 +8,11 @@ public class HorizontalLine{
         this.num = num;
     }
 
-    public void draw(int num){
-        for (int i = 0; i < num; i++) {
-            System.out.println("");
+    public void draw(){
+        int n = this.num;
+        for (int i = 0; i < n; i++) {
+            System.out.print("*");
         }
+        System.out.println("");
     }
 }

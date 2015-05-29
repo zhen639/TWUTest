@@ -3,7 +3,12 @@
  */
 
 public class TestHorizontalLine {
-    HorizontalLine hl = new HorizontalLine();
 
+    public void run(){
+        HorizontalLine hl = new HorizontalLine();
+        int n = 8;
+        hl.setNum(n);
+        hl.draw();
+    }
 
 }
