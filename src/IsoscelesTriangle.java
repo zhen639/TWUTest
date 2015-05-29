@@ -24,9 +24,9 @@ public class IsoscelesTriangle {
 
     public void drawInverse(){
         int n = this.num;
-        for (int i = n; i > 0; i--) {
+        for (int i = n-2; i >-1; i--) {
             for (int j = 0; j < n*2-1; j++) {
-                if (j < n-i-1 || j > n+i-1){
+                if(j < n-i-1 || j > n+i-1){
                     System.out.print(" ");
                 }else{
                     System.out.print("*");
