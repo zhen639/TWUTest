@@ -7,6 +7,8 @@ public class Main {
         TestHorizontalLine testHL = new TestHorizontalLine();
         testHL.run();
 
+        TestVerticalLine testVL = new TestVerticalLine();
+        testVL.run();
 
     }
 }
