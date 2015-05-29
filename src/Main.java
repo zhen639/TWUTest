@@ -24,5 +24,8 @@ public class Main {
         TestIsoscelesTriangle testIT = new TestIsoscelesTriangle();
         testIT.run();
 
+        TestDiamond testD = new TestDiamond();
+        testD.run();
+
     }
 }

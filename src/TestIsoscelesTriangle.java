@@ -8,5 +8,6 @@ public class TestIsoscelesTriangle {
         int num = 3;
         it.setNum(num);
         it.draw();
+//        it.drawInverse();
     }
 }
