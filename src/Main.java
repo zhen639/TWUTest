@@ -10,5 +10,8 @@ public class Main {
         TestVerticalLine testVL = new TestVerticalLine();
         testVL.run();
 
+        TestRightTriangle testRT = new TestRightTriangle();
+        testRT.run();
+
     }
 }
