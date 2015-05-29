@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("--------Triangle Exercises---------");
+        System.out.println("");
+
         TestAsterisk testAste = new TestAsterisk();
         testAste.run();
 
@@ -12,6 +15,14 @@ public class Main {
 
         TestRightTriangle testRT = new TestRightTriangle();
         testRT.run();
+        System.out.println("");
+        System.out.println("--------------------------------");
+
+        System.out.println("--------Diamond Exercises---------");
+        System.out.println("");
+
+        TestIsoscelesTriangle testIT = new TestIsoscelesTriangle();
+        testIT.run();
 
     }
 }
