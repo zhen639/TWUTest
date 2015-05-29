@@ -27,5 +27,8 @@ public class Main {
         TestDiamond testD = new TestDiamond();
         testD.run();
 
+        TestDiamondWithName testDiamondWithName = new TestDiamondWithName();
+        testDiamondWithName.run();
+
     }
 }
