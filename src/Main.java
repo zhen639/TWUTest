@@ -36,5 +36,10 @@ public class Main {
         TestFizzBuzz testFizzBuzz = new TestFizzBuzz();
         testFizzBuzz.run();
 
+        System.out.println("--------Prime Factors Exercises---------");
+        System.out.println("");
+        TestPrimeFactors testPrimeFactors = new TestPrimeFactors();
+        testPrimeFactors.run();
+
     }
 }
