@@ -5,7 +5,7 @@ public class TestPrimeFactors {
 
     public void run(){
         PrimeFactors primeFactors = new PrimeFactors();
-        primeFactors.setNum(8);
+        primeFactors.setNum(30);
         primeFactors.run();
     }
 }

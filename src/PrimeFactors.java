@@ -27,7 +27,7 @@ public class PrimeFactors {
         }
         System.out.println("The prime factors of " + this.num + " are: ");
         for (int i : primeFactorList) {
-            System.out.print(i);
+            System.out.print(i+ " ");
         }
     }
 }
