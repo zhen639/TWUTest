@@ -7,10 +7,4 @@ public class Asterisk {
     public void draw(){
         System.out.println("*");
     }
-
-//    public void seeOuter(){
-//        System.out.println("a");
-//    }
-
-
 }
