@@ -9,9 +9,8 @@ public class Diamond {
     }
 
     public void draw(){
-        int n = this.num;
         IsoscelesTriangle iTriangle = new IsoscelesTriangle();
-        iTriangle.setNum(n);
+        iTriangle.setNum(this.num);
         iTriangle.draw();
         iTriangle.drawInverse();
     }

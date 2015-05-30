@@ -15,17 +15,15 @@ public class DiamondWithName {
 
     public void draw(){
         System.out.println("Test Diamond with Name");
-        int n = this.num;
-        String name = this.name;
         IsoscelesTriangle iTriangle = new IsoscelesTriangle();
-        iTriangle.setNum(n);
-        for (int i = 0; i < n; i++) {
-            if(i == n-1){
-                System.out.println(name);
+        iTriangle.setNum(this.num);
+        for (int i = 0; i < this.num; i++) {
+            if(i == this.num-1){
+                System.out.println(this.name);
                 break;
             }
-            for (int j = 0; j < n*2-1; j++) {
-                if (j < n-i-1 || j > n+i-1){
+            for (int j = 0; j < this.num*2-1; j++) {
+                if (j < this.num-i-1 || j > this.num+i-1){
                     System.out.print(" ");
                 }else{
                     System.out.print("*");
@@ -33,7 +31,7 @@ public class DiamondWithName {
             }
             System.out.println("");
         }
-        iTriangle.setNum(n);
+        iTriangle.setNum(this.num);
         iTriangle.drawInverse();
     }
 }

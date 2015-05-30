@@ -9,10 +9,9 @@ public class IsoscelesTriangle {
     }
 
     public void draw(){
-        int n = this.num;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n*2-1; j++) {
-                if (j < n-i-1 || j > n+i-1){
+        for (int i = 0; i < this.num; i++) {
+            for (int j = 0; j < this.num*2-1; j++) {
+                if (j < this.num-i-1 || j > this.num+i-1){
                     System.out.print(" ");
                 }else{
                     System.out.print("*");
@@ -23,10 +22,9 @@ public class IsoscelesTriangle {
     }
 
     public void drawInverse(){
-        int n = this.num;
-        for (int i = n-2; i >-1; i--) {
-            for (int j = 0; j < n*2-1; j++) {
-                if(j < n-i-1 || j > n+i-1){
+        for (int i = this.num-2; i >-1; i--) {
+            for (int j = 0; j < this.num*2-1; j++) {
+                if(j < this.num-i-1 || j > this.num+i-1){
                     System.out.print(" ");
                 }else{
                     System.out.print("*");

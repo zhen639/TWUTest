@@ -30,5 +30,11 @@ public class Main {
         TestDiamondWithName testDiamondWithName = new TestDiamondWithName();
         testDiamondWithName.run();
 
+        System.out.println("--------FizzBuzz Exercises---------");
+        System.out.println("");
+
+        TestFizzBuzz testFizzBuzz = new TestFizzBuzz();
+        testFizzBuzz.run();
+
     }
 }

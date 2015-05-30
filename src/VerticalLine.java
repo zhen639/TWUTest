@@ -9,8 +9,7 @@ public class VerticalLine {
     }
 
     public void draw(){
-        int n = this.num;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < this.num; i++) {
             System.out.println("*");
         }
         System.out.print("");
